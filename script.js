@@ -2,7 +2,7 @@
 const TEAM_ID = '5';
 const CHAIN_ID = 'B';
 const DATAPIPE_EXPERIMENT_ID = 'tBMiWjIWmNnK';
-const NEXT_PROJECT_URL = ''; // Set to Team 6's public GitHub Pages URL before the chain goes live.
+const NEXT_PROJECT_URL = 'https://chestojanovanela.github.io/final-group-project/';
 const params = new URLSearchParams(window.location.search);
 const sessionId = params.get('sid');
 const validSession = /^[A-Za-z0-9_-]+$/.test(sessionId ?? '') && params.get('chain') === CHAIN_ID;
