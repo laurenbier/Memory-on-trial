@@ -19,3 +19,12 @@ Upload all three code files, README, and `images/` contents to the existing publ
 
 ## Research planning
 Primary exploratory outcome: endorsement of misinformation lures (4 questions). Secondary: event accuracy and lineup selection/confidence. Check image consistency, source-monitoring confounds, lineup fairness, question wording, sampling and sample size with the instructor before data collection. Cite verified scientific sources in the final documentation and presentation.
+
+## Version 2 notes (2026-11-18)
+Replace index.html, styles.css and script.js in repository root. Keep existing scene-1.jpg through scene-8.jpg and face-1.jpg through face-6.jpg in repository root. Do not create an images/ folder. No other assets needed.
+
+Three randomized conditions: accurate report (control), misleading report, misleading report plus generic correction. Timed photographs (8 × 15s), 90s backward-7 task, 60s report, 45s interference task, lineup, 12 event questions (10s minimum each), 6 source questions (10s minimum each). Typical completion ~9–11 minutes, depending on lineup and reading time. Timing must be pilot-tested.
+
+Important: The 8 original event questions retain the original project's assumed answer key; validate each against the actual photographs. The 4 new difficult items test whether participants reject details not established by photographs; do not claim they measure fine-grained visual recall. The six source items have condition-specific expected answers, but source attribution is an exploratory measure. Face-1 is treated as the target only if that portrait actually matches the perpetrator; validate the lineup and avoid research claims without validation.
+
+Responses are only downloadable CSVs. No DataPipe, server, analytics, or automatic collection is integrated. Instructor approval is required for research and any data-collection workflow. Do not commit CSV participant data to public GitHub.
